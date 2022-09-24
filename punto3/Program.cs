@@ -7,9 +7,10 @@ namespace Punto3
     {
         static void Main(string [] args)
         {
-             Empleado pepe = new Empleado();
+             Empleado NicolasBilkis = new Empleado();
 
-             Console.WriteLine(pepe.calcula_antiguadad());
+             Console.WriteLine("La edad es :" + NicolasBilkis.calcula_edad());
+             Console.WriteLine("La antiguedad es :" + NicolasBilkis.calcula_antiguadad());
         }
     }
 }
