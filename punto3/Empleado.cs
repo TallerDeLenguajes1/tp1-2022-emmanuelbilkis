@@ -14,9 +14,18 @@ namespace Punto3
         private string fecha_ingreso_empresa;
         private float sueldo_basico;
         private string? puesto_en_la_empresa;
+        bool esCasado;
+        int cantidad_hijos;
+        bool divorciado;
+        string fecha_divorcio;
+        bool titulo_universitario;
+        string titulo_obtenido;
+        string universidad;
 
 
-        public Empleado(string? nombre, string? apellido, string? documento, string fecha_nacimiento, string? direccion, string fecha_ingreso_empresa, float sueldo_basico, int antiguedad, string? puesto_en_la_empresa)
+
+
+        public Empleado(string? nombre, string? apellido, string? documento, string fecha_nacimiento, string? direccion, string fecha_ingreso_empresa, float sueldo_basico, int antiguedad, string? puesto_en_la_empresa, bool esCasado,int cantidad_hijos,bool divorciado,string fecha_divorcio,bool titulo_universitario,string titulo_obtenido,  string universidad)
         {
             try
             {
@@ -28,6 +37,13 @@ namespace Punto3
                 this.fecha_ingreso_empresa = fecha_ingreso_empresa;
                 this.sueldo_basico = sueldo_basico;
                 this.puesto_en_la_empresa = puesto_en_la_empresa;
+                this.esCasado = esCasado;
+                this.divorciado = divorciado;
+                this.cantidad_hijos = cantidad_hijos;
+                this.fecha_divorcio = fecha_divorcio;
+                this.titulo_universitario = titulo_universitario;
+                this.titulo_obtenido = titulo_obtenido;
+                this.universidad = universidad;
             }
             catch (System.FormatException e)
             {
@@ -41,11 +57,18 @@ namespace Punto3
             this.nombre = "Nicolás";
             this.apellido = "Bilkis";
             this.documento = "36998256";
-            this.fecha_nacimiento = "treinta de septiembre de 1992";
+            this.fecha_nacimiento = "30/09/1992";
             this.direccion = "San Juan 200";
-            this.fecha_ingreso_empresa = "18-04-2015";
+            this.fecha_ingreso_empresa = "30/09/2015";
             this.sueldo_basico = 105234;
             this.puesto_en_la_empresa = "Jefe de produccion";
+            this.esCasado = true;
+            this.cantidad_hijos = 3;
+            this.divorciado = false;
+            this.fecha_divorcio = "null";
+            this.titulo_universitario = true;
+            this.titulo_obtenido = "Programador Universitario";
+            this.universidad = "Facultad de Ciencias Exactas UNT";
 
         } // constructor por defecto
 
@@ -122,6 +145,13 @@ namespace Punto3
                 throw;
             }
         
+        }
+
+        public void mostrar(){
+
+                Console.WriteLine("Nombre y apellido: " + this.nombre + this.apellido);
+                Console.WriteLine ("Edad : " + this.calcula_edad());
+                Console.WriteLine("Antiguedad: " +  this.calcula_antiguadad()); 
         }
     }
 }
