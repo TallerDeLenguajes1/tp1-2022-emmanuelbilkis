@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "puOFPafPYxBSnq9XrovFDkTRjbKL5N5OLlXGr98u8KaQHp/HSp9ssZAXtQe4QU7bIp9AW1ezAIqR7PdmPp+low==",
+  "dgSpecHash": "mqoNII2kjog5QhpZvh32oh20O3zRwZffgAT0ZgO2tKnkYvr9oGnl7dQgU/tVJrgP/a0nYKanmIHDbsCBXvrUiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\emman\\OneDrive\\Escritorio\\Tps-Taller2\\tp1-2022-emmanuelbilkis\\punto3\\punto3.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\emman\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

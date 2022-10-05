@@ -5,6 +5,7 @@ namespace Punto3
 {
     class Program
     {
+        private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         static void Main(string [] args)
         {
              Empleado NicolasBilkis = new Empleado();
@@ -30,11 +31,14 @@ namespace Punto3
             }
             catch(FormatException e)
             {
-                Console.WriteLine("Error de formato" + e.Message);
+                Logger.Info("Error de formato" + e.Message);
+                Logger.Debug("Debug",e);
+                Logger.Error("Fatal",e);
                 throw;
             }
             catch (IOException e)
             {
+                Logger.Info("Error de excepcion");
                 Console.WriteLine("Error de entrada salida" + e.Message);
                 throw;
             }
@@ -56,6 +60,7 @@ namespace Punto3
             }
             catch (System.IndexOutOfRangeException e)
             {
+                Logger.Error("Error al ingresar un indice q no corresponde");
                 Console.WriteLine(e.Message);
                 throw;
             }

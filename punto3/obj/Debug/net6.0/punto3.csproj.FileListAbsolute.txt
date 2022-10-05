@@ -13,3 +13,6 @@ C:\Users\emman\OneDrive\Escritorio\Tps-Taller2\tp1-2022-emmanuelbilkis\punto3\ob
 C:\Users\emman\OneDrive\Escritorio\Tps-Taller2\tp1-2022-emmanuelbilkis\punto3\obj\Debug\net6.0\punto3.pdb
 C:\Users\emman\OneDrive\Escritorio\Tps-Taller2\tp1-2022-emmanuelbilkis\punto3\obj\Debug\net6.0\punto3.genruntimeconfig.cache
 C:\Users\emman\OneDrive\Escritorio\Tps-Taller2\tp1-2022-emmanuelbilkis\punto3\obj\Debug\net6.0\ref\punto3.dll
+C:\Users\emman\OneDrive\Escritorio\Tps-Taller2\tp1-2022-emmanuelbilkis\punto3\bin\Debug\net6.0\Nlog.config
+C:\Users\emman\OneDrive\Escritorio\Tps-Taller2\tp1-2022-emmanuelbilkis\punto3\bin\Debug\net6.0\NLog.dll
+C:\Users\emman\OneDrive\Escritorio\Tps-Taller2\tp1-2022-emmanuelbilkis\punto3\obj\Debug\net6.0\punto3.csproj.CopyComplete

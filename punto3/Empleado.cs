@@ -4,6 +4,7 @@ personales, Dirección, fecha de ingreso la empresa, datos profesionales.*/
 
 namespace Punto3
 {
+    
     class Empleado
     {
         private string? nombre;
@@ -27,6 +28,7 @@ namespace Punto3
 
         public Empleado(string? nombre, string? apellido, string? documento, string fecha_nacimiento, string? direccion, string fecha_ingreso_empresa, float sueldo_basico, int antiguedad, string? puesto_en_la_empresa, bool esCasado,int cantidad_hijos,bool divorciado,string fecha_divorcio,bool titulo_universitario,string titulo_obtenido,  string universidad)
         {
+            
             try
             {
                 this.nombre = nombre;
